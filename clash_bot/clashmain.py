@@ -13,7 +13,7 @@ os.startfile(shortcut_path)
 
 print("Clash of Clans is launching...")
 
-################################################################################
+
 print("Waiting for 55 seconds...")
 time.sleep(10)
 def scroll_down_with_ctrl(duration_sec=3, scroll_amount=-120, scroll_interval=0.2):
@@ -43,7 +43,9 @@ pyautogui.moveTo(x - 110, y - 110, duration=2.2)  # move over 2 seconds
 pyautogui.mouseUp(button='left')
 
 print("Held left mouse, moved left-up ~3 cm while holding, then released.")
-###############################################################################
+
+
+
 import pyautogui
 import time
 
