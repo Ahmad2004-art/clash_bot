@@ -1,3 +1,5 @@
+Python Automation Project using Computer Vision technique
+   
    Clash Bot — Automation Project
 
 An advanced **Python automation bot** designed to interact with **Clash of Clans** on Windows using GUI automation techniques.  
