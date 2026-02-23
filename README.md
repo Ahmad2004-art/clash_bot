@@ -1,62 +1,76 @@
-Python Automation Project using Computer Vision technique
-   
-   Clash Bot — Automation Project
 
-An advanced **Python automation bot** designed to interact with **Clash of Clans** on Windows using GUI automation techniques.  
-This project demonstrates practical experience in automation, scripting, and system-level interaction.
 
----
+ 🚧 AI / Deep Learning Roadmap (Planned)
 
-  Project Overview
+This project is designed to evolve into a **Deep Learning–powered autonomous agent**.
 
-Clash Bot automates repetitive in-game actions by simulating **keyboard, mouse, and screen interactions**.  
-It is built to showcase skills in:
-- Automation logic
-- Event timing & control
-- Screen-based interaction
-- Real-world scripting challenges
+Planned AI capabilities include:
+- Using **CNN-based models** to recognize game elements dynamically
+- Detecting resources, buildings, enemies, and states
+- Making strategic decisions instead of fixed rules
+- Performing **multiple in-game tasks beyond wall upgrades**
+- Simulating **human-like gameplay behavior**
+- Fully autonomous play without direct human input
 
-This repository represents my **main automation project**.
+> ⚠️ The current version uses automation and image detection.  
+> Deep Learning integration is **planned for future versions**.
 
 ---
 
-   Key Features
 
-- Launches the game automatically via Windows shortcut
-- Keyboard and mouse automation
-- Timed action sequences and loops
-- Screen-based image detection and interaction
-- Long-running automation cycles
-- Modular logic for extending behaviors
+
+🤖 Clash Bot — Autonomous Game Automation System
+
+An advanced **Python automation bot** designed to automatically **upgrade walls in Clash of Clans** by interacting with the game UI on Windows.  
+This project is my **main automation project** and is being developed as a foundation for a future **AI-driven autonomous game agent**.
 
 ---
 
-    Tech Stack
+ 🎯 Project Vision
+
+The initial goal of this bot is to **fully automate the wall upgrade process**, removing repetitive manual work.
+
+The long-term vision is far more ambitious:
+
+> To build an **AI-powered system capable of playing the game autonomously**,  
+> making decisions similarly to a human player — **without human interaction**.
+
+---
+
+## 🚀 Current Features (Automation Phase)
+
+- Automatic game launch via Windows shortcut
+- Screen-based image detection for walls and UI elements
+- Mouse and keyboard automation
+- Timed action loops for continuous upgrading
+- Stable execution for long-running sessions
+
+---
+
+## 🛠 Tech Stack (Current)
 
 - **Language:** Python  
-- **Automation:** PyAutoGUI  
-- **Windows API:** pywin32  
+- **Automation & Vision:** PyAutoGUI  
 - **OS:** Windows  
 - **Version Control:** Git & GitHub  
 
 ---
 
-   How It Works
+## 🧠 How It Works (Current Version)
 
-- Opens the Clash of Clans application automatically
-- Executes predefined keyboard and mouse sequences
-- Uses image recognition to detect in-game elements
-- Runs continuous automation loops with controlled timing
-- Designed for experimentation and extension
+- Captures screenshots of the game screen
+- Detects walls and buttons using image matching
+- Executes upgrade actions automatically
+- Uses rule-based logic (non–machine learning)
 
 ---
 
- Run Locally
+## ▶️ Run Locally
 
-  Requirements
+### Requirements
 - Python 3.x
 - Windows OS
 
 ### Install dependencies
 ```bash
-pip install pyautogui pywin32
+pip install pyautogui
