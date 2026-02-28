@@ -95,6 +95,7 @@ Windows OS
 
 Install Dependencies
 pip install pyautogui
+
 🔮 Future Improvements
 
 Replace image matching with CNN-based detection
