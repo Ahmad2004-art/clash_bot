@@ -1,76 +1,106 @@
-
-
- 🚧 AI / Deep Learning Roadmap (Planned)
-
-This project is designed to evolve into a **Deep Learning–powered autonomous agent**.
-
-Planned AI capabilities include:
-- Using **CNN-based models** to recognize game elements dynamically
-- Detecting resources, buildings, enemies, and states
-- Making strategic decisions instead of fixed rules
-- Performing **multiple in-game tasks beyond wall upgrades**
-- Simulating **human-like gameplay behavior**
-- Fully autonomous play without direct human input
-
-> ⚠️ The current version uses automation and image detection.  
-> Deep Learning integration is **planned for future versions**.
-
----
-
-
-
 🤖 Clash Bot — Autonomous Game Automation System
+📌 Overview
 
-An advanced **Python automation bot** designed to automatically **upgrade walls in Clash of Clans** by interacting with the game UI on Windows.  
-This project is my **main automation project** and is being developed as a foundation for a future **AI-driven autonomous game agent**.
+Clash Bot is a Python-based automation system designed to automate repetitive in-game actions in Clash of Clans using screen-based image recognition and UI interaction.
 
----
+The project serves as a foundational step toward developing a future AI-driven autonomous agent capable of strategic decision-making.
 
- 🎯 Project Vision
+The current implementation focuses on automation, with long-term plans for Deep Learning integration.
 
-The initial goal of this bot is to **fully automate the wall upgrade process**, removing repetitive manual work.
+🎯 Project Vision
 
-The long-term vision is far more ambitious:
+The short-term objective is to automate repetitive UI-based tasks such as wall upgrades.
 
-> To build an **AI-powered system capable of playing the game autonomously**,  
-> making decisions similarly to a human player — **without human interaction**.
+The long-term vision is to evolve this project into:
 
----
+A Deep Learning–powered autonomous agent capable of analyzing game states, recognizing dynamic elements, and making strategic decisions without predefined rules.
 
-## 🚀 Current Features (Automation Phase)
+This transforms the project from simple automation into an AI research experiment in:
 
-- Automatic game launch via Windows shortcut
-- Screen-based image detection for walls and UI elements
-- Mouse and keyboard automation
-- Timed action loops for continuous upgrading
-- Stable execution for long-running sessions
+Autonomous agents
 
----
+Game-state recognition
 
-## 🛠 Tech Stack (Current)
+Decision-making systems
 
-- **Language:** Python  
-- **Automation & Vision:** PyAutoGUI  
-- **OS:** Windows  
-- **Version Control:** Git & GitHub  
+🚀 Current Features (Automation Phase)
 
----
+Automated game launch via Windows shortcut
 
-## 🧠 How It Works (Current Version)
+Screen-based image detection for walls and UI elements
 
-- Captures screenshots of the game screen
-- Detects walls and buttons using image matching
-- Executes upgrade actions automatically
-- Uses rule-based logic (non–machine learning)
+Mouse and keyboard automation
 
----
+Rule-based logic for task execution
 
-## ▶️ Run Locally
+Stable long-running execution loops
 
-### Requirements
-- Python 3.x
-- Windows OS
+🧠 System Architecture (Current Version)
 
-### Install dependencies
-```bash
+Capture real-time screenshots
+
+Detect UI elements via image matching
+
+Apply rule-based decision logic
+
+Execute automated input actions
+
+The current version does not use machine learning.
+
+🚧 AI / Deep Learning Roadmap (Planned)
+
+The system is designed to evolve into a Deep Learning–based autonomous agent.
+
+Planned enhancements include:
+
+CNN-based visual recognition of game elements
+
+Dynamic detection of resources, buildings, and enemies
+
+Reinforcement Learning for strategic decisions
+
+Multi-task autonomous behavior
+
+Human-like action timing simulation
+
+Fully autonomous play without predefined rule loops
+
+⚠️ Current version uses rule-based automation.
+AI integration is planned for future research versions.
+
+🛠 Tech Stack
+
+Current Phase:
+
+Python
+
+PyAutoGUI
+
+Windows OS
+
+Planned AI Phase:
+
+TensorFlow / PyTorch
+
+OpenCV
+
+Reinforcement Learning frameworks
+
+▶ Run Locally
+Requirements
+
+Python 3.x
+
+Windows OS
+
+Install Dependencies
 pip install pyautogui
+🔮 Future Improvements
+
+Replace image matching with CNN-based detection
+
+Add reinforcement learning agent
+
+Implement state-based decision architecture
+
+Improve efficiency and performance optimization
